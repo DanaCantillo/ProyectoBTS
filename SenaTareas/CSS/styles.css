@@ -1,0 +1,373 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+    
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+    
+} 
+    
+.hero {
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 60rem;
+    background-position: center;
+    filter: brightness(80%);
+}
+
+.iniciar_cesion{
+    text-align: center;
+    display: flex;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+.cerrar_cesion{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.contenido_hero {
+    position: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(85, 34, 34, 0.459);
+}
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .titulo{
+    margin-left: 1.5rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: var(--negro);
+    font-weight: bold; /* Añadí negrita */
+}
+    
+.enlaces {
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+        
+}
+.hobi{
+  font-size: 20px;
+}
+.footer {
+    text-align: center;
+    margin-top: 5rem;
+    color: aliceblue;
+    padding: 2rem;
+    background-color: rgb(195, 224, 166);
+    border-top: 1px solid color(srgb rgb(243, 203, 238) green blue);
+    font-size: 40px;
+}
+    
+.bg-nav {
+    background-color: rgb(205, 253, 253);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+    
+/* Estilo general */
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ece4ba 0%, #c5eced 100%);
+}
+    
+/* Estilo del encabezado */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    display: flex;
+}
+    
+/* Estilo para el contenedor del logo */
+
+.login_form{
+    width: 100%; /* Ancho total */
+    max-width: 500px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+.login_form input,
+.login_form textarea,
+.login_form select {
+    width: 100%; /* Ancho total */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen entre elementos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+}
+.login_logo {
+    background-image: url("../img/logosena.jpg");
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+.login {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+    
+.bts{
+    max-width: 600px;
+    text-align: end;
+    width: 10px;
+    font-size: 12px;
+    font-size: 2.4rem;
+    font-size: 2.4rem;
+}
+
+
+.formu{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    column-gap: 4rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    gap: 2rem;
+}
+
+/* Estilo para los campos del formulario */
+.campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    text-align: end;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+    
+    
+.campo label {
+    display: block;
+    margin-bottom: 20px;
+    color: #0f0f0f;
+    text-align: center;
+}
+    
+.campo input {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e69a9a;
+    border-radius: 4px;
+}
+    
+/* Estilo para el botón */
+.btn{
+    background-color: #007BFF;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.camposRegistro{
+    background: #fff;
+    padding: 10px;
+    border-radius: 1px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+/*formulario insertar registro*/
+
+/* Estilos para el fondo del formulario */
+.form_fondo {
+    box-shadow: 0 10px 30px rgba(8, 8, 8, 0.1);
+    background: rgb(253, 250, 250);
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 15px;
+    animation: fadeInUP 1s ease-out;
+}
+
+/* Estilos del cuadro del formulario */
+.form_registro {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Ajusta el tamaño al 100% del contenedor */
+    max-width: 400px; /* Tamaño máximo para mantener el cuadro */
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 50px;
+}
+
+/* Estilos del fieldset */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos de la leyenda del formulario */
+legend {
+    font-size: 2.1em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Estilos de la cuadrícula */
+.camposRegistros {
+    display: grid;
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Estilos de los campos del formulario */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Estilos de las etiquetas */
+label {
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 1.2;
+    display: block;
+}
+
+/* Estilos de los inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 80%;
+    padding: 12px;
+    transition: all 0.3s ease;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos del botón */
+input[type="submit"] {
+    grid-column: span 3; /* El botón ocupará las 3 columnas */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #0e0c0e;
+    box-shadow: 0 0 8px rgba(13, 13, 13, 0.3);
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    
